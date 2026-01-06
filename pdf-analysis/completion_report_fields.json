@@ -1,0 +1,844 @@
+[
+  {
+    "field_id": "Customer name",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      120.638,
+      666.937,
+      288.992,
+      681.874
+    ]
+  },
+  {
+    "field_id": "Installer name",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      112.11,
+      651.661,
+      288.992,
+      667.526
+    ]
+  },
+  {
+    "field_id": "Customer_address",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      361.843,
+      649.661,
+      544.677,
+      686.228
+    ]
+  },
+  {
+    "field_id": "Very unsatisfied",
+    "type": "radio_group",
+    "page": 1,
+    "radio_options": [
+      {
+        "value": "/0",
+        "rect": [
+          142.282,
+          555.369,
+          151.103,
+          564.19
+        ]
+      }
+    ]
+  },
+  {
+    "field_id": "Unsatisfied",
+    "type": "radio_group",
+    "page": 1,
+    "radio_options": [
+      {
+        "value": "/0",
+        "rect": [
+          238.064,
+          555.369,
+          246.885,
+          564.19
+        ]
+      }
+    ]
+  },
+  {
+    "field_id": "Acceptable",
+    "type": "radio_group",
+    "page": 1,
+    "radio_options": [
+      {
+        "value": "/0",
+        "rect": [
+          333.846,
+          555.369,
+          342.667,
+          564.19
+        ]
+      }
+    ]
+  },
+  {
+    "field_id": "Meets_expectations",
+    "type": "radio_group",
+    "page": 1,
+    "radio_options": [
+      {
+        "value": "/0",
+        "rect": [
+          418.628,
+          555.369,
+          427.449,
+          564.19
+        ]
+      }
+    ]
+  },
+  {
+    "field_id": "Exceeded_expectations",
+    "type": "radio_group",
+    "page": 1,
+    "radio_options": [
+      {
+        "value": "/0",
+        "rect": [
+          514.41,
+          555.369,
+          523.231,
+          564.19
+        ]
+      }
+    ]
+  },
+  {
+    "field_id": "Level_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      448.638,
+      492.661,
+      458.997,
+      502.866
+    ]
+  },
+  {
+    "field_id": "Level_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      502.752,
+      492.661,
+      513.111,
+      502.866
+    ]
+  },
+  {
+    "field_id": "Check Box 2",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      251.885,
+      492.378,
+      262.244,
+      502.583
+    ]
+  },
+  {
+    "field_id": "Appliance_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      306.0,
+      492.378,
+      316.359,
+      502.583
+    ]
+  },
+  {
+    "field_id": "Floors_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      448.638,
+      475.703,
+      458.997,
+      485.908
+    ]
+  },
+  {
+    "field_id": "Floors_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      502.752,
+      475.703,
+      513.111,
+      485.908
+    ]
+  },
+  {
+    "field_id": "Damage_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      251.885,
+      475.42,
+      262.244,
+      485.625
+    ]
+  },
+  {
+    "field_id": "Damage_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      306.0,
+      475.42,
+      316.359,
+      485.625
+    ]
+  },
+  {
+    "field_id": "Handles_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      448.638,
+      458.745,
+      458.997,
+      468.95
+    ]
+  },
+  {
+    "field_id": "Handles_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      502.752,
+      458.745,
+      513.111,
+      468.95
+    ]
+  },
+  {
+    "field_id": "Doors_drawer_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      251.885,
+      458.462,
+      262.244,
+      468.667
+    ]
+  },
+  {
+    "field_id": "Doors_drawers_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      306.0,
+      458.462,
+      316.359,
+      468.667
+    ]
+  },
+  {
+    "field_id": "Photos_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      448.638,
+      441.787,
+      458.997,
+      451.992
+    ]
+  },
+  {
+    "field_id": "Photos_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      502.752,
+      441.787,
+      513.111,
+      451.992
+    ]
+  },
+  {
+    "field_id": "Filler_strip_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      251.885,
+      441.504,
+      262.244,
+      451.709
+    ]
+  },
+  {
+    "field_id": "Filler_strips_inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      306.0,
+      441.504,
+      316.359,
+      451.709
+    ]
+  },
+  {
+    "field_id": "Distance_cust",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      448.638,
+      425.625,
+      458.997,
+      435.829
+    ]
+  },
+  {
+    "field_id": "Distance_Inst",
+    "type": "checkbox",
+    "checked_value": "/Yes",
+    "unchecked_value": "/Off",
+    "page": 1,
+    "rect": [
+      502.752,
+      425.625,
+      513.111,
+      435.829
+    ]
+  },
+  {
+    "field_id": "Additional_work_notes",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      79.2283,
+      328.535,
+      529.937,
+      389.244
+    ]
+  },
+  {
+    "field_id": "Desc_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      82.2283,
+      246.386,
+      199.157,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Art_no_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      202.819,
+      246.386,
+      260.079,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Color_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      263.764,
+      246.386,
+      335.764,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Damage_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      339.449,
+      246.386,
+      383.244,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Missing_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      386.929,
+      246.386,
+      430.724,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Order_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      433.843,
+      246.386,
+      477.638,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Onsite_01",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      481.181,
+      246.386,
+      527.528,
+      258.433
+    ]
+  },
+  {
+    "field_id": "Desc_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      82.2283,
+      228.819,
+      199.157,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Art_no_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      202.819,
+      228.819,
+      260.079,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Color_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      263.764,
+      228.819,
+      335.764,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Damage_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      339.449,
+      228.819,
+      383.244,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Missing_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      386.929,
+      228.819,
+      430.724,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Order_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      433.843,
+      228.819,
+      477.638,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Onsite_02",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      481.181,
+      228.819,
+      527.528,
+      240.866
+    ]
+  },
+  {
+    "field_id": "Desc_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      82.2283,
+      211.252,
+      199.157,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Art_no_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      202.819,
+      211.252,
+      260.079,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Color_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      263.764,
+      211.252,
+      335.764,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Damage_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      339.449,
+      211.252,
+      383.244,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Missing_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      386.929,
+      211.252,
+      430.724,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Order_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      433.843,
+      211.252,
+      477.638,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Onsite_03",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      481.181,
+      211.252,
+      527.528,
+      223.299
+    ]
+  },
+  {
+    "field_id": "Desc_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      82.2283,
+      193.685,
+      199.157,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Art_no_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      202.819,
+      193.685,
+      260.079,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Color_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      263.764,
+      193.685,
+      335.764,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Damage_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      339.449,
+      193.685,
+      383.244,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Missing_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      386.929,
+      193.685,
+      430.724,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Order_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      433.843,
+      193.685,
+      477.638,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Onsite_04",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      481.181,
+      193.685,
+      527.528,
+      205.732
+    ]
+  },
+  {
+    "field_id": "Desc_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      82.2283,
+      176.118,
+      199.157,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Art_no_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      202.819,
+      176.118,
+      260.079,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Color_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      263.764,
+      176.118,
+      335.764,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Damage_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      339.449,
+      176.118,
+      383.244,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Missing_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      386.929,
+      176.118,
+      430.724,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Order_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      433.843,
+      176.118,
+      477.638,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Onsite_05",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      481.181,
+      176.118,
+      527.528,
+      188.165
+    ]
+  },
+  {
+    "field_id": "Desc_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      82.2283,
+      158.551,
+      199.157,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Art_no_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      202.819,
+      158.551,
+      260.079,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Color_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      263.764,
+      158.551,
+      335.764,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Damage_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      339.449,
+      158.551,
+      383.244,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Missing_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      386.929,
+      158.551,
+      430.724,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Order_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      433.843,
+      158.551,
+      477.638,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Onsite_06",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      481.181,
+      158.551,
+      527.528,
+      170.598
+    ]
+  },
+  {
+    "field_id": "Customer_signature",
+    "type": "unknown (/Sig)",
+    "page": 1,
+    "rect": [
+      164.74,
+      87.4567,
+      333.094,
+      109.48
+    ]
+  },
+  {
+    "field_id": "Customer_signature 2",
+    "type": "unknown (/Sig)",
+    "page": 1,
+    "rect": [
+      164.52,
+      54.0079,
+      332.874,
+      72.7008
+    ]
+  }
+]

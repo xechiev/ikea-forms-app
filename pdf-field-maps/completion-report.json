@@ -1,0 +1,157 @@
+{
+  "formName": "Completion Report",
+  "fileName": "completion-report.pdf",
+  "pages": 1,
+  "fields": {
+    "header": {
+      "customerName": {
+        "fieldId": "Customer name",
+        "type": "text",
+        "required": true,
+        "autoFill": "job.customer.name"
+      },
+      "installerName": {
+        "fieldId": "Installer name",
+        "type": "text",
+        "required": true,
+        "autoFill": "installer.name"
+      },
+      "customerAddress": {
+        "fieldId": "Customer_address",
+        "type": "text",
+        "required": true,
+        "autoFill": "job.address"
+      }
+    },
+    "walkthrough": {
+      "satisfaction": {
+        "veryUnsatisfied": { "fieldId": "Very unsatisfied", "type": "radio", "value": "/0" },
+        "unsatisfied": { "fieldId": "Unsatisfied", "type": "radio", "value": "/0" },
+        "acceptable": { "fieldId": "Acceptable", "type": "radio", "value": "/0" },
+        "meetsExpectations": { "fieldId": "Meets_expectations", "type": "radio", "value": "/0" },
+        "exceededExpectations": { "fieldId": "Exceeded_expectations", "type": "radio", "value": "/0" }
+      },
+      "checklist": {
+        "applianceSpacingCorrect": {
+          "customer": { "fieldId": "Check Box 2", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Appliance_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "allCabinetsLevel": {
+          "customer": { "fieldId": "Level_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Level_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "noDamageToAppliances": {
+          "customer": { "fieldId": "Damage_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Damage_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "noDamageToFloors": {
+          "customer": { "fieldId": "Floors_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Floors_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "allDoorsDrawersAdjusted": {
+          "customer": { "fieldId": "Doors_drawer_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Doors_drawers_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "allHandlesInstalled": {
+          "customer": { "fieldId": "Handles_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Handles_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "allFillerStripsInstalled": {
+          "customer": { "fieldId": "Filler_strip_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Filler_strips_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "photosTaken": {
+          "customer": { "fieldId": "Photos_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Photos_inst", "type": "checkbox", "checkedValue": "/Yes" }
+        },
+        "distanceCookingSurfaceMicrohood": {
+          "customer": { "fieldId": "Distance_cust", "type": "checkbox", "checkedValue": "/Yes" },
+          "installer": { "fieldId": "Distance_Inst", "type": "checkbox", "checkedValue": "/Yes" }
+        }
+      }
+    },
+    "additionalWork": {
+      "notes": { "fieldId": "Additional_work_notes", "type": "text" }
+    },
+    "missingItems": [
+      {
+        "row": 1,
+        "description": { "fieldId": "Desc_01", "type": "text" },
+        "articleNumber": { "fieldId": "Art_no_01", "type": "text" },
+        "color": { "fieldId": "Color_01", "type": "text" },
+        "numberDamaged": { "fieldId": "Damage_01", "type": "text" },
+        "numberMissing": { "fieldId": "Missing_01", "type": "text" },
+        "numberToOrder": { "fieldId": "Order_01", "type": "text" },
+        "numberOnsite": { "fieldId": "Onsite_01", "type": "text" }
+      },
+      {
+        "row": 2,
+        "description": { "fieldId": "Desc_02", "type": "text" },
+        "articleNumber": { "fieldId": "Art_no_02", "type": "text" },
+        "color": { "fieldId": "Color_02", "type": "text" },
+        "numberDamaged": { "fieldId": "Damage_02", "type": "text" },
+        "numberMissing": { "fieldId": "Missing_02", "type": "text" },
+        "numberToOrder": { "fieldId": "Order_02", "type": "text" },
+        "numberOnsite": { "fieldId": "Onsite_02", "type": "text" }
+      },
+      {
+        "row": 3,
+        "description": { "fieldId": "Desc_03", "type": "text" },
+        "articleNumber": { "fieldId": "Art_no_03", "type": "text" },
+        "color": { "fieldId": "Color_03", "type": "text" },
+        "numberDamaged": { "fieldId": "Damage_03", "type": "text" },
+        "numberMissing": { "fieldId": "Missing_03", "type": "text" },
+        "numberToOrder": { "fieldId": "Order_03", "type": "text" },
+        "numberOnsite": { "fieldId": "Onsite_03", "type": "text" }
+      },
+      {
+        "row": 4,
+        "description": { "fieldId": "Desc_04", "type": "text" },
+        "articleNumber": { "fieldId": "Art_no_04", "type": "text" },
+        "color": { "fieldId": "Color_04", "type": "text" },
+        "numberDamaged": { "fieldId": "Damage_04", "type": "text" },
+        "numberMissing": { "fieldId": "Missing_04", "type": "text" },
+        "numberToOrder": { "fieldId": "Order_04", "type": "text" },
+        "numberOnsite": { "fieldId": "Onsite_04", "type": "text" }
+      },
+      {
+        "row": 5,
+        "description": { "fieldId": "Desc_05", "type": "text" },
+        "articleNumber": { "fieldId": "Art_no_05", "type": "text" },
+        "color": { "fieldId": "Color_05", "type": "text" },
+        "numberDamaged": { "fieldId": "Damage_05", "type": "text" },
+        "numberMissing": { "fieldId": "Missing_05", "type": "text" },
+        "numberToOrder": { "fieldId": "Order_05", "type": "text" },
+        "numberOnsite": { "fieldId": "Onsite_05", "type": "text" }
+      },
+      {
+        "row": 6,
+        "description": { "fieldId": "Desc_06", "type": "text" },
+        "articleNumber": { "fieldId": "Art_no_06", "type": "text" },
+        "color": { "fieldId": "Color_06", "type": "text" },
+        "numberDamaged": { "fieldId": "Damage_06", "type": "text" },
+        "numberMissing": { "fieldId": "Missing_06", "type": "text" },
+        "numberToOrder": { "fieldId": "Order_06", "type": "text" },
+        "numberOnsite": { "fieldId": "Onsite_06", "type": "text" }
+      }
+    ],
+    "signatures": {
+      "customerSignature": {
+        "fieldId": "Customer_signature",
+        "type": "signature",
+        "required": true,
+        "rect": [164.74, 87.4567, 333.094, 109.48]
+      },
+      "installerSignature": {
+        "fieldId": "Customer_signature 2",
+        "type": "signature",
+        "required": true,
+        "rect": [164.52, 54.0079, 332.874, 72.7008]
+      }
+    }
+  },
+  "emptyFormBehavior": {
+    "condition": "No missing items",
+    "action": "Fill first row description with 'None'"
+  }
+}

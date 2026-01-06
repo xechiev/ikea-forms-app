@@ -1,0 +1,233 @@
+{
+  "app": {
+    "name": "IKEA Forms",
+    "tagline": "Installation Forms Manager"
+  },
+  "nav": {
+    "home": "Home",
+    "newJob": "New Job",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "pasteInstructions": "Paste job info from calendar",
+    "placeholder": "Paste text here...\n\nExample:\nConfirmed/IKEA CT John Smith 12035551234\nFriday, December 12⋅9:00AM–3:00PM\n123 Main St, Hartford, CT 06103",
+    "createJob": "Create Job",
+    "recentJobs": "Recent Jobs",
+    "noJobs": "No jobs yet"
+  },
+  "job": {
+    "type": {
+      "installation": "Installation",
+      "wo": "Work Order",
+      "prefit": "Prefit"
+    },
+    "customer": "Customer",
+    "installer": "Installer",
+    "address": "Address",
+    "phone": "Phone",
+    "date": "Date",
+    "notes": "Notes",
+    "forms": "Forms",
+    "requiredForms": "Required Forms"
+  },
+  "forms": {
+    "startNotes": "Start Notes",
+    "changeNotes": "Change Notes",
+    "kitchenArticles": "Kitchen Articles Request",
+    "completionReport": "Completion Report",
+    "wallAnchoring": "Wall Anchoring",
+    "siteCondition": "Site Condition Report",
+    "status": {
+      "not_started": "Not Started",
+      "in_progress": "In Progress",
+      "completed": "Completed"
+    },
+    "viewFullDocument": "View Full Document",
+    "documentPreview": "Document Preview",
+    "generatingPdf": "Generating PDF...",
+    "signatures": "Signatures",
+    "customerSignature": "Customer Signature",
+    "installerSignature": "Installer Signature",
+    "tapToSign": "Tap to sign",
+    "removeSignature": "Remove signature",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "saved": "Saved!",
+    "changeNotes": {
+      "title": "Change Notes",
+      "workDescription": "Description of Additional Work",
+      "descriptionPlaceholder": "Describe additional work...",
+      "price": "Price",
+      "qty": "Qty",
+      "total": "Total",
+      "addRow": "Add Row",
+      "totalAmount": "Total Amount"
+    }
+  },
+  "startNotes": {
+    "title": "Start Notes",
+    "preInstallation": "Pre-installation Discussion",
+    "checkAll": "Check all that apply",
+    "checks": {
+      "workingFromCorrectPlans": "Working from the correct plans and estimate",
+      "inventoryCompleted": "Inventory was completed by customer",
+      "locationClear": "Location of the project and parts is clear",
+      "customerOnSite": "Customer will be on-site to sign the completion report",
+      "flooringPresent": "Flooring is present at time of installation",
+      "scratchesInFloor": "Any scratches or dents in floor (if yes, describe below)",
+      "petsClear": "Customers/pets must remain clear of tools and cords in use",
+      "servicePanelClear": "Location of service panel & water shut-off is clear",
+      "restroomClear": "Location of restroom we can use (if any) is clear",
+      "debrisClear": "Location for installation debris is clear",
+      "knobsHandlesClear": "Where knobs/handles are to be installed is clear",
+      "appliancesOnSite": "Appliances are on-site (if no, provide below)",
+      "picturesTaken": "Site pictures have been taken",
+      "jobSitePickedUp": "Job site will be picked up and swept at end of each day"
+    },
+    "applianceFitGuide": "Appliance Fit Guide",
+    "applianceNote": "If appliance is not on-site, or if it is new and packaged, customer must provide specifications",
+    "appliances": {
+      "dishwasher": "Dishwasher",
+      "refrigerator": "Refrigerator",
+      "range": "Range",
+      "builtInOven": "Built-in oven",
+      "microwave": "Microwave",
+      "ventHood": "Vent hood",
+      "cooktop": "Cooktop"
+    },
+    "new": "New",
+    "existing": "Existing",
+    "width": "W",
+    "depth": "D",
+    "height": "H",
+    "jobSiteConditions": "Job Site Conditions",
+    "jobSiteConditionsPlaceholder": "Please describe and provide any necessary notes...",
+    "photoRelease": "Photo Release",
+    "photoReleaseText": "The undersigned grants to IKEA unrestricted permission to take photographs of the project site...",
+    "ceilingToeKick": "Ceiling and Toe Kick Level Conditions",
+    "ceiling": "Ceiling",
+    "toeKick": "Toe Kick",
+    "largestGap": "Largest gap",
+    "smallestGap": "Smallest gap",
+    "ceilingTreatment": "Ceiling Treatment Selection",
+    "ceilingOptions": {
+      "no_trim": "No trim, at standard height, gap to ceiling",
+      "deco_standard": "Deco at standard height-gap to ceiling (deco strip laid flat)*",
+      "deco_raised": "Deco laid flat-cabinet raised to ceiling or soffit*",
+      "panel_wrap": "Panel laid flat on top (wrap)*",
+      "scribe": "Scribe to ceiling*",
+      "deco_double": "Scribe with deco (or) Deco double-stack to ceiling*"
+    },
+    "underCabinetTrim": "Under Cabinet Trim Selection",
+    "trimOptions": {
+      "no_deco": "No deco",
+      "deco_vertical": "Deco vertical",
+      "deco_horizontal": "Deco horizontal",
+      "panel_under": "Panel under"
+    },
+    "additionalCharges": "*Additional charges apply",
+    "cabinetPlacement": "Cabinet Placement Specifications",
+    "countertopThickness": "Countertop thickness",
+    "cabinetNotes": "Notes"
+  },
+  "changeNotes": {
+    "title": "Change Notes",
+    "description": "Description of work",
+    "price": "Price",
+    "quantity": "Qty",
+    "totalPrice": "Total",
+    "totalAmount": "Total amount prior to taxes",
+    "addRow": "Add Row",
+    "noChanges": "N/A - No additional work required"
+  },
+  "completionReport": {
+    "title": "Completion Report",
+    "walkthrough": "Walkthrough",
+    "satisfaction": "Overall satisfaction",
+    "satisfactionLevels": {
+      "1": "Very unsatisfied",
+      "2": "Unsatisfied",
+      "3": "Acceptable",
+      "4": "Meets expectations",
+      "5": "Exceeded expectations"
+    },
+    "checklist": {
+      "applianceSpacing": "Appliance spacing correct (see start notes)",
+      "cabinetsLevel": "All cabinets are level",
+      "noDamageAppliances": "No damage to appliances",
+      "noDamageFloors": "No damage to floors",
+      "doorsDrawersAdjusted": "All doors and drawers adjusted",
+      "handlesInstalled": "All handles installed",
+      "fillerStripsInstalled": "All filler strips installed",
+      "photosTaken": "Photos taken",
+      "distanceCookingSurface": "Distance between cooking surface and bottom of micro-hood meets customer's specs"
+    },
+    "customer": "Customer",
+    "installer": "Installer",
+    "additionalWork": "Additional work to be completed",
+    "additionalWorkPlaceholder": "Describe any additional work needed...",
+    "missingItems": "Missing Items",
+    "missingItemsNote": "(indicate \"none\" if none)",
+    "articleDescription": "Article description",
+    "articleNumber": "Article number",
+    "color": "Color",
+    "numberDamaged": "# Damaged",
+    "numberMissing": "# Missing",
+    "numberToOrder": "# To order",
+    "numberOnsite": "# On jobsite"
+  },
+  "signature": {
+    "sign": "Sign",
+    "clear": "Clear",
+    "save": "Save Signature",
+    "customerSignature": "Customer Signature",
+    "installerSignature": "Installer Signature",
+    "viewDocument": "View Full Document",
+    "signHere": "Sign here"
+  },
+  "validation": {
+    "required": "This field is required",
+    "signatureRequired": "Signature is required",
+    "atLeastOne": "At least one item is required"
+  },
+  "actions": {
+    "save": "Save",
+    "saving": "Saving...",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "download": "Download",
+    "exportPdf": "Export PDF",
+    "send": "Send to Telegram",
+    "preview": "Preview"
+  },
+  "settings": {
+    "title": "Settings",
+    "installerProfile": "Installer Profile",
+    "name": "Name",
+    "phone": "Phone",
+    "company": "Company",
+    "language": "Language",
+    "english": "English",
+    "russian": "Русский",
+    "saveProfile": "Save Profile",
+    "profileSaved": "Profile saved successfully"
+  },
+  "errors": {
+    "parseError": "Could not parse job information. Please check the format.",
+    "exportError": "Error exporting PDF",
+    "saveError": "Error saving data",
+    "pdfGenerationFailed": "Failed to generate PDF. Please try again."
+  },
+  "alerts": {
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?",
+    "deleteConfirm": "Are you sure you want to delete this job?",
+    "formIncomplete": "Please complete all required fields before submitting."
+  }
+}

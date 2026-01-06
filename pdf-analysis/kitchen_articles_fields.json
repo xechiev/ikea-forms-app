@@ -1,0 +1,563 @@
+[
+  {
+    "field_id": "Text Field 80.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      606.24,
+      531.146,
+      735.84,
+      545.691
+    ]
+  },
+  {
+    "field_id": "Text Field 2.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      606.24,
+      510.551,
+      735.84,
+      525.095
+    ]
+  },
+  {
+    "field_id": "Text Field 3.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      98.0178,
+      438.191,
+      381.6,
+      457.631
+    ]
+  },
+  {
+    "field_id": "Text Field 7.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      452.258,
+      438.191,
+      735.84,
+      457.631
+    ]
+  },
+  {
+    "field_id": "Text Field 4.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      145.44,
+      415.44,
+      381.6,
+      434.88
+    ]
+  },
+  {
+    "field_id": "Text Field 8.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      495.0,
+      415.44,
+      731.16,
+      434.88
+    ]
+  },
+  {
+    "field_id": "Text Field 5.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      98.0178,
+      392.689,
+      381.6,
+      412.129
+    ]
+  },
+  {
+    "field_id": "Text Field 6.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      150.84,
+      369.938,
+      387.0,
+      389.378
+    ]
+  },
+  {
+    "field_id": "Text Field 9.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      450.881,
+      369.938,
+      731.16,
+      412.129
+    ]
+  },
+  {
+    "field_id": "Text Field 45.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      272.04,
+      231.787,
+      291.48
+    ]
+  },
+  {
+    "field_id": "Text Field 17.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      272.04,
+      383.04,
+      291.48
+    ]
+  },
+  {
+    "field_id": "Text Field 66.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      272.04,
+      675.254,
+      291.48
+    ]
+  },
+  {
+    "field_id": "Text Field 73.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      272.04,
+      727.374,
+      291.48
+    ]
+  },
+  {
+    "field_id": "Text Field 10.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      271.08,
+      184.32,
+      290.52
+    ]
+  },
+  {
+    "field_id": "Text Field 52.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      271.08,
+      623.52,
+      290.52
+    ]
+  },
+  {
+    "field_id": "Text Field 46.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      245.2,
+      231.787,
+      264.64
+    ]
+  },
+  {
+    "field_id": "Text Field 18.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      245.2,
+      383.04,
+      264.64
+    ]
+  },
+  {
+    "field_id": "Text Field 67.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      245.2,
+      675.254,
+      264.64
+    ]
+  },
+  {
+    "field_id": "Text Field 74.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      245.2,
+      727.374,
+      264.64
+    ]
+  },
+  {
+    "field_id": "Text Field 11.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      244.24,
+      184.32,
+      263.68
+    ]
+  },
+  {
+    "field_id": "Text Field 53.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      244.24,
+      623.52,
+      263.68
+    ]
+  },
+  {
+    "field_id": "Text Field 47.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      218.36,
+      231.787,
+      237.8
+    ]
+  },
+  {
+    "field_id": "Text Field 19.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      218.36,
+      383.04,
+      237.8
+    ]
+  },
+  {
+    "field_id": "Text Field 68.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      218.36,
+      675.254,
+      237.8
+    ]
+  },
+  {
+    "field_id": "Text Field 75.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      218.36,
+      727.374,
+      237.8
+    ]
+  },
+  {
+    "field_id": "Text Field 12.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      217.4,
+      184.32,
+      236.84
+    ]
+  },
+  {
+    "field_id": "Text Field 54.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      217.4,
+      623.52,
+      236.84
+    ]
+  },
+  {
+    "field_id": "Text Field 13.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      191.56,
+      184.32,
+      211.0
+    ]
+  },
+  {
+    "field_id": "Text Field 55.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      191.56,
+      623.52,
+      211.0
+    ]
+  },
+  {
+    "field_id": "Text Field 48.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      191.52,
+      231.787,
+      210.96
+    ]
+  },
+  {
+    "field_id": "Text Field 20.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      191.52,
+      383.04,
+      210.96
+    ]
+  },
+  {
+    "field_id": "Text Field 69.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      191.52,
+      675.254,
+      210.96
+    ]
+  },
+  {
+    "field_id": "Text Field 76.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      191.52,
+      727.374,
+      210.96
+    ]
+  },
+  {
+    "field_id": "Text Field 49.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      164.72,
+      231.787,
+      184.16
+    ]
+  },
+  {
+    "field_id": "Text Field 21.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      164.72,
+      383.04,
+      184.16
+    ]
+  },
+  {
+    "field_id": "Text Field 70.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      164.72,
+      675.254,
+      184.16
+    ]
+  },
+  {
+    "field_id": "Text Field 77.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      164.72,
+      727.374,
+      184.16
+    ]
+  },
+  {
+    "field_id": "Text Field 14.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      163.76,
+      184.32,
+      183.2
+    ]
+  },
+  {
+    "field_id": "Text Field 56.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      163.76,
+      623.52,
+      183.2
+    ]
+  },
+  {
+    "field_id": "Text Field 50.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      137.88,
+      231.787,
+      157.32
+    ]
+  },
+  {
+    "field_id": "Text Field 71.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      137.88,
+      675.254,
+      157.32
+    ]
+  },
+  {
+    "field_id": "Text Field 78.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      137.88,
+      727.374,
+      157.32
+    ]
+  },
+  {
+    "field_id": "Text Field 15.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      136.92,
+      184.32,
+      156.36
+    ]
+  },
+  {
+    "field_id": "Text Field 57.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      136.92,
+      623.52,
+      156.36
+    ]
+  },
+  {
+    "field_id": "Text Field 22.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      136.88,
+      383.04,
+      156.32
+    ]
+  },
+  {
+    "field_id": "Text Field 51.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      194.453,
+      111.08,
+      231.787,
+      130.52
+    ]
+  },
+  {
+    "field_id": "Text Field 23.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      241.92,
+      111.08,
+      383.04,
+      130.52
+    ]
+  },
+  {
+    "field_id": "Text Field 72.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      637.92,
+      111.08,
+      675.254,
+      130.52
+    ]
+  },
+  {
+    "field_id": "Text Field 79.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      690.041,
+      111.08,
+      727.374,
+      130.52
+    ]
+  },
+  {
+    "field_id": "Text Field 16.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      63.0,
+      110.12,
+      184.32,
+      129.56
+    ]
+  },
+  {
+    "field_id": "Text Field 58.Page 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      414.084,
+      110.12,
+      623.52,
+      129.56
+    ]
+  }
+]

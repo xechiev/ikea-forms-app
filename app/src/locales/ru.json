@@ -1,0 +1,206 @@
+{
+  "app": {
+    "name": "IKEA Формы",
+    "tagline": "Менеджер форм установки"
+  },
+  "nav": {
+    "home": "Главная",
+    "newJob": "Новый заказ",
+    "history": "История",
+    "settings": "Настройки"
+  },
+  "home": {
+    "welcome": "Добро пожаловать",
+    "pasteInstructions": "Вставьте информацию о заказе из календаря",
+    "placeholder": "Вставьте текст сюда...\n\nПример:\nConfirmed/IKEA CT John Smith 12035551234\nПятница, 12 декабря⋅9:00AM–3:00PM\n123 Main St, Hartford, CT 06103",
+    "createJob": "Создать заказ",
+    "recentJobs": "Недавние заказы",
+    "noJobs": "Заказов пока нет"
+  },
+  "job": {
+    "type": {
+      "installation": "Установка",
+      "wo": "Доделка (WO)",
+      "prefit": "Префит"
+    },
+    "customer": "Клиент",
+    "address": "Адрес",
+    "phone": "Телефон",
+    "date": "Дата",
+    "notes": "Заметки",
+    "forms": "Формы",
+    "requiredForms": "Необходимые формы"
+  },
+  "forms": {
+    "startNotes": "Стартовые заметки",
+    "changeNotes": "Изменения",
+    "kitchenArticles": "Запрос артикулов",
+    "completionReport": "Отчёт о завершении",
+    "wallAnchoring": "Крепление к стене",
+    "siteCondition": "Отчёт о состоянии",
+    "status": {
+      "not_started": "Не начато",
+      "in_progress": "В процессе",
+      "completed": "Завершено"
+    }
+  },
+  "startNotes": {
+    "title": "Стартовые заметки",
+    "preInstallation": "Предварительное обсуждение",
+    "checkAll": "Отметьте всё, что применимо",
+    "checks": {
+      "workingFromCorrectPlans": "Работаем по правильным планам и смете",
+      "inventoryCompleted": "Инвентаризация выполнена клиентом",
+      "locationClear": "Расположение проекта и деталей понятно",
+      "customerOnSite": "Клиент будет на месте для подписания отчёта",
+      "flooringPresent": "Напольное покрытие присутствует",
+      "scratchesInFloor": "Есть царапины или вмятины на полу (если да, опишите ниже)",
+      "petsClear": "Клиенты/питомцы должны держаться подальше от инструментов",
+      "servicePanelClear": "Расположение электрощита и запорной арматуры понятно",
+      "restroomClear": "Расположение туалета (если есть) понятно",
+      "debrisClear": "Место для строительного мусора определено",
+      "knobsHandlesClear": "Место установки ручек понятно",
+      "appliancesOnSite": "Техника на месте (если нет, укажите ниже)",
+      "picturesTaken": "Фотографии сделаны",
+      "jobSitePickedUp": "Рабочее место будет убрано в конце каждого дня"
+    },
+    "applianceFitGuide": "Руководство по размерам техники",
+    "applianceNote": "Если техника не на месте или новая в упаковке, клиент должен предоставить характеристики",
+    "appliances": {
+      "dishwasher": "Посудомоечная машина",
+      "refrigerator": "Холодильник",
+      "range": "Плита",
+      "builtInOven": "Встраиваемая духовка",
+      "microwave": "Микроволновка",
+      "ventHood": "Вытяжка",
+      "cooktop": "Варочная панель"
+    },
+    "new": "Новая",
+    "existing": "Существующая",
+    "width": "Ш",
+    "depth": "Г",
+    "height": "В",
+    "jobSiteConditions": "Условия на объекте",
+    "jobSiteConditionsPlaceholder": "Опишите необходимые заметки...",
+    "photoRelease": "Разрешение на фото",
+    "photoReleaseText": "Подписавший предоставляет IKEA неограниченное разрешение на фотографирование объекта...",
+    "ceilingToeKick": "Уровень потолка и цоколя",
+    "ceiling": "Потолок",
+    "toeKick": "Цоколь",
+    "largestGap": "Макс. зазор",
+    "smallestGap": "Мин. зазор",
+    "ceilingTreatment": "Выбор отделки потолка",
+    "ceilingOptions": {
+      "no_trim": "Без отделки, стандартная высота, зазор до потолка",
+      "deco_standard": "Деко на стандартной высоте с зазором*",
+      "deco_raised": "Деко горизонтально, шкаф поднят к потолку*",
+      "panel_wrap": "Панель сверху (обёртка)*",
+      "scribe": "Подгонка к потолку*",
+      "deco_double": "Подгонка с деко или двойной деко*"
+    },
+    "underCabinetTrim": "Отделка под шкафом",
+    "trimOptions": {
+      "no_deco": "Без деко",
+      "deco_vertical": "Деко вертикально",
+      "deco_horizontal": "Деко горизонтально",
+      "panel_under": "Панель снизу"
+    },
+    "additionalCharges": "*Дополнительная оплата",
+    "cabinetPlacement": "Спецификация размещения шкафов",
+    "countertopThickness": "Толщина столешницы",
+    "cabinetNotes": "Заметки"
+  },
+  "changeNotes": {
+    "title": "Изменения",
+    "description": "Описание работы",
+    "price": "Цена",
+    "quantity": "Кол-во",
+    "totalPrice": "Итого",
+    "totalAmount": "Общая сумма до налогов",
+    "addRow": "Добавить строку",
+    "noChanges": "Н/П - Дополнительных работ не требуется"
+  },
+  "completionReport": {
+    "title": "Отчёт о завершении",
+    "walkthrough": "Осмотр",
+    "satisfaction": "Общая удовлетворённость",
+    "satisfactionLevels": {
+      "1": "Очень недоволен",
+      "2": "Недоволен",
+      "3": "Приемлемо",
+      "4": "Соответствует ожиданиям",
+      "5": "Превзошло ожидания"
+    },
+    "checklist": {
+      "applianceSpacing": "Расстояния для техники корректны",
+      "cabinetsLevel": "Все шкафы выровнены",
+      "noDamageAppliances": "Техника не повреждена",
+      "noDamageFloors": "Полы не повреждены",
+      "doorsDrawersAdjusted": "Все двери и ящики отрегулированы",
+      "handlesInstalled": "Все ручки установлены",
+      "fillerStripsInstalled": "Все филлеры установлены",
+      "photosTaken": "Фотографии сделаны",
+      "distanceCookingSurface": "Расстояние от варочной поверхности до вытяжки соответствует требованиям"
+    },
+    "customer": "Клиент",
+    "installer": "Установщик",
+    "additionalWork": "Дополнительные работы для завершения",
+    "additionalWorkPlaceholder": "Опишите необходимые дополнительные работы...",
+    "missingItems": "Недостающие элементы",
+    "missingItemsNote": "(укажите \"нет\" если всё есть)",
+    "articleDescription": "Описание",
+    "articleNumber": "Артикул",
+    "color": "Цвет",
+    "numberDamaged": "Повреждено",
+    "numberMissing": "Отсутствует",
+    "numberToOrder": "Заказать",
+    "numberOnsite": "На месте"
+  },
+  "signature": {
+    "sign": "Подписать",
+    "clear": "Очистить",
+    "save": "Сохранить подпись",
+    "customerSignature": "Подпись клиента",
+    "installerSignature": "Подпись установщика",
+    "viewDocument": "Просмотреть документ",
+    "signHere": "Подпишите здесь"
+  },
+  "validation": {
+    "required": "Это поле обязательно",
+    "signatureRequired": "Требуется подпись",
+    "atLeastOne": "Требуется минимум один элемент"
+  },
+  "actions": {
+    "save": "Сохранить",
+    "next": "Далее",
+    "previous": "Назад",
+    "submit": "Отправить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "export": "Экспорт PDF",
+    "send": "Отправить в Telegram",
+    "preview": "Предпросмотр"
+  },
+  "settings": {
+    "title": "Настройки",
+    "installerProfile": "Профиль установщика",
+    "name": "Имя",
+    "phone": "Телефон",
+    "company": "Компания",
+    "language": "Язык",
+    "english": "English",
+    "russian": "Русский",
+    "saveProfile": "Сохранить профиль",
+    "profileSaved": "Профиль сохранён"
+  },
+  "errors": {
+    "parseError": "Не удалось распознать информацию о заказе. Проверьте формат.",
+    "exportError": "Ошибка экспорта PDF",
+    "saveError": "Ошибка сохранения данных"
+  },
+  "alerts": {
+    "unsavedChanges": "У вас есть несохранённые изменения. Уверены, что хотите выйти?",
+    "deleteConfirm": "Вы уверены, что хотите удалить этот заказ?",
+    "formIncomplete": "Пожалуйста, заполните все обязательные поля перед отправкой."
+  }
+}

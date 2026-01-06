@@ -1,0 +1,144 @@
+{
+  "formName": "Change Notes",
+  "fileName": "change-notes.pdf",
+  "pages": 1,
+  "fields": {
+    "header": {
+      "customerName": {
+        "fieldId": "Customer name",
+        "type": "text",
+        "required": true,
+        "autoFill": "job.customer.name"
+      },
+      "installerName": {
+        "fieldId": "Installer name",
+        "type": "text",
+        "required": true,
+        "autoFill": "installer.name"
+      },
+      "customerAddress": {
+        "fieldId": "Customer_address",
+        "type": "text",
+        "required": true,
+        "autoFill": "job.address"
+      }
+    },
+    "workItems": [
+      {
+        "row": 1,
+        "description": { "fieldId": "Desc_01", "type": "text" },
+        "price": { "fieldId": "Price_01", "type": "text" },
+        "quantity": { "fieldId": "Qty_01", "type": "text" },
+        "totalPrice": { "fieldId": "TP_01", "type": "text" }
+      },
+      {
+        "row": 2,
+        "description": { "fieldId": "Work_02", "type": "text" },
+        "price": { "fieldId": "Price_02", "type": "text" },
+        "quantity": { "fieldId": "Qty_02", "type": "text" },
+        "totalPrice": { "fieldId": "TP_02", "type": "text" }
+      },
+      {
+        "row": 3,
+        "description": { "fieldId": "Work_03", "type": "text" },
+        "price": { "fieldId": "Price_03", "type": "text" },
+        "quantity": { "fieldId": "Qty_03", "type": "text" },
+        "totalPrice": { "fieldId": "TP_03", "type": "text" }
+      },
+      {
+        "row": 4,
+        "description": { "fieldId": "Work_04", "type": "text" },
+        "price": { "fieldId": "Price_04", "type": "text" },
+        "quantity": { "fieldId": "Qty_04", "type": "text" },
+        "totalPrice": { "fieldId": "TP_04", "type": "text" }
+      },
+      {
+        "row": 5,
+        "description": { "fieldId": "Work_05", "type": "text" },
+        "price": { "fieldId": "Price_05", "type": "text" },
+        "quantity": { "fieldId": "Qty_05", "type": "text" },
+        "totalPrice": { "fieldId": "TP_05", "type": "text" }
+      },
+      {
+        "row": 6,
+        "description": { "fieldId": "Work_06", "type": "text" },
+        "price": { "fieldId": "Price_06", "type": "text" },
+        "quantity": { "fieldId": "Qty_06", "type": "text" },
+        "totalPrice": { "fieldId": "TP_06", "type": "text" }
+      },
+      {
+        "row": 7,
+        "description": { "fieldId": "Work_07", "type": "text" },
+        "price": { "fieldId": "Price_07", "type": "text" },
+        "quantity": { "fieldId": "Qty_07", "type": "text" },
+        "totalPrice": { "fieldId": "TP_07", "type": "text" }
+      },
+      {
+        "row": 8,
+        "description": { "fieldId": "Work_08", "type": "text" },
+        "price": { "fieldId": "Price_08", "type": "text" },
+        "quantity": { "fieldId": "Qty_08", "type": "text" },
+        "totalPrice": { "fieldId": "TP_08", "type": "text" }
+      },
+      {
+        "row": 9,
+        "description": { "fieldId": "Work_09", "type": "text" },
+        "price": { "fieldId": "Price_09", "type": "text" },
+        "quantity": { "fieldId": "Qty_09", "type": "text" },
+        "totalPrice": { "fieldId": "TP_09", "type": "text" }
+      },
+      {
+        "row": 10,
+        "description": { "fieldId": "Work_10", "type": "text" },
+        "price": { "fieldId": "Price_10", "type": "text" },
+        "quantity": { "fieldId": "Qty_10", "type": "text" },
+        "totalPrice": { "fieldId": "TP_10", "type": "text" }
+      },
+      {
+        "row": 11,
+        "description": { "fieldId": "Work_11", "type": "text" },
+        "price": { "fieldId": "Price_11", "type": "text" },
+        "quantity": { "fieldId": "Qty_11", "type": "text" },
+        "totalPrice": { "fieldId": "TP_11", "type": "text" }
+      },
+      {
+        "row": 12,
+        "description": { "fieldId": "Desc_12", "type": "text" },
+        "price": { "fieldId": "Price_12", "type": "text" },
+        "quantity": { "fieldId": "Qty_12", "type": "text" },
+        "totalPrice": { "fieldId": "TP_12", "type": "text" }
+      }
+    ],
+    "totals": {
+      "totalAmount": { "fieldId": "TP_13", "type": "text", "computed": true }
+    },
+    "signatures": {
+      "customerSignature": {
+        "fieldId": "Customer_signature",
+        "type": "signature",
+        "required": true,
+        "rect": [166.803, 153.795, 335.157, 175.819]
+      },
+      "customerDate": {
+        "fieldId": "Date_customer",
+        "type": "text",
+        "required": true
+      },
+      "installerSignature": {
+        "fieldId": "Customer_signature 2",
+        "type": "signature",
+        "required": true,
+        "rect": [166.803, 112.575, 335.157, 133.969]
+      },
+      "installerDate": {
+        "fieldId": "Date_inst",
+        "type": "text",
+        "required": true
+      }
+    }
+  },
+  "emptyFormBehavior": {
+    "condition": "No work items entered",
+    "action": "Fill first row description with 'N/A - No additional work required'"
+  }
+}
