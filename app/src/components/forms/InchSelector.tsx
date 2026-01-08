@@ -167,6 +167,7 @@ export function InchSelector({
                 <div 
                   ref={inchesRef}
                   className="inch-selector-wheel"
+                  onTouchMove={(e) => e.stopPropagation()}
                 >
                   {inchesArray.map(inc => (
                     <button
@@ -183,7 +184,10 @@ export function InchSelector({
               {/* Fraction wheel */}
               <div className="flex-1">
                 <div className="text-xs text-gray-500 text-center mb-2 font-medium">FRACTION</div>
-                <div className="inch-selector-wheel">
+                <div 
+                  className="inch-selector-wheel"
+                  onTouchMove={(e) => e.stopPropagation()}
+                >
                   {fractions.map((frac, idx) => (
                     <button
                       key={frac.label}

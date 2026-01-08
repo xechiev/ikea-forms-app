@@ -191,6 +191,7 @@ body {
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 /* Hide scrollbar but keep functionality */
