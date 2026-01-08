@@ -70,8 +70,9 @@ export function InchSelector({
   };
 
   const handleClear = () => {
+    setInches(minInches);
+    setFractionIndex(0);
     onChange('');
-    setIsOpen(false);
   };
 
   const displayValue = value || '—';
@@ -196,13 +197,19 @@ export function InchSelector({
               </div>
             </div>
 
-            {/* Clear button */}
-            <div className="p-4 pt-0">
+            {/* Action buttons */}
+            <div className="p-4 pt-0 flex gap-3">
               <button
                 onClick={handleClear}
-                className="w-full py-3 text-red-500 text-sm font-medium border border-red-200 rounded-xl active:bg-red-50"
+                className="flex-1 py-3 text-red-500 text-sm font-medium border border-red-200 rounded-xl active:bg-red-50"
               >
-                Clear Value
+                Clear
+              </button>
+              <button
+                onClick={handleConfirm}
+                className="flex-1 py-3 bg-blue-500 text-white text-sm font-medium rounded-xl active:bg-blue-600"
+              >
+                Done
               </button>
             </div>
           </div>
