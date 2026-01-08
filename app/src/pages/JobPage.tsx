@@ -129,7 +129,7 @@ export function JobPage() {
                 <button
                   key={formKey}
                   onClick={() => handleFormClick(formKey)}
-                  className="w-full bg-white rounded-xl p-4 shadow-sm text-left hover:shadow-md transition-shadow flex items-center justify-between"
+                  className="w-full bg-white rounded-xl p-4 shadow-sm text-left hover:shadow-md transition-shadow flex items-center justify-between cursor-pointer"
                 >
                   <div className="flex items-center gap-3">
                     {/* Status icon */}

@@ -5,6 +5,7 @@ import { useJobStore, useInstallerStore } from '../store';
 import { fillStartNotesPdf, createPdfBlobUrl, downloadPdf, generatePdfFilename } from '../utils/pdf';
 import Header from '../components/common/Header';
 import SignatureCanvas from '../components/forms/SignatureCanvas';
+import InchSelector from '../components/forms/InchSelector';
 import type { StartNotesData, ApplianceData, CabinetPlacementData } from '../types';
 
 const defaultPreInstallation = {
@@ -359,33 +360,36 @@ export function StartNotesPage() {
                   </div>
                   <div className="grid grid-cols-3 gap-2">
                     <div>
-                      <label className="text-xs text-gray-500">{t('startNotes.width')}</label>
-                      <input
-                        type="text"
+                      <label className="text-xs text-gray-500 block mb-1">{t('startNotes.width')}</label>
+                      <InchSelector
                         value={appliances[key as keyof typeof appliances].width}
-                        onChange={(e) => updateAppliance(key as keyof typeof appliances, 'width', e.target.value)}
-                        className="input-field text-sm"
-                        placeholder='"'
+                        onChange={(val) => updateAppliance(key as keyof typeof appliances, 'width', val)}
+                        label={`${label} - ${t('startNotes.width')}`}
+                        maxInches={48}
+                        showQuickPresets={true}
+                        quickPresets={[18, 24, 30, 36, 42, 48]}
                       />
                     </div>
                     <div>
-                      <label className="text-xs text-gray-500">{t('startNotes.depth')}</label>
-                      <input
-                        type="text"
+                      <label className="text-xs text-gray-500 block mb-1">{t('startNotes.depth')}</label>
+                      <InchSelector
                         value={appliances[key as keyof typeof appliances].depth}
-                        onChange={(e) => updateAppliance(key as keyof typeof appliances, 'depth', e.target.value)}
-                        className="input-field text-sm"
-                        placeholder='"'
+                        onChange={(val) => updateAppliance(key as keyof typeof appliances, 'depth', val)}
+                        label={`${label} - ${t('startNotes.depth')}`}
+                        maxInches={36}
+                        showQuickPresets={true}
+                        quickPresets={[12, 18, 24, 27, 30]}
                       />
                     </div>
                     <div>
-                      <label className="text-xs text-gray-500">{t('startNotes.height')}</label>
-                      <input
-                        type="text"
+                      <label className="text-xs text-gray-500 block mb-1">{t('startNotes.height')}</label>
+                      <InchSelector
                         value={appliances[key as keyof typeof appliances].height}
-                        onChange={(e) => updateAppliance(key as keyof typeof appliances, 'height', e.target.value)}
-                        className="input-field text-sm"
-                        placeholder='"'
+                        onChange={(val) => updateAppliance(key as keyof typeof appliances, 'height', val)}
+                        label={`${label} - ${t('startNotes.height')}`}
+                        maxInches={48}
+                        showQuickPresets={true}
+                        quickPresets={[18, 24, 30, 34, 36, 42]}
                       />
                     </div>
                   </div>
@@ -426,23 +430,23 @@ export function StartNotesPage() {
                 <h4 className="text-sm font-medium text-gray-700 mb-2">{t('startNotes.ceiling')}</h4>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <label className="text-xs text-gray-500">{t('startNotes.largestGap')}</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">{t('startNotes.largestGap')}</label>
+                    <InchSelector
                       value={ceilingLargest}
-                      onChange={(e) => setCeilingLargest(e.target.value)}
-                      className="input-field"
-                      placeholder='"'
+                      onChange={setCeilingLargest}
+                      label={`${t('startNotes.ceiling')} - ${t('startNotes.largestGap')}`}
+                      maxInches={12}
+                      quickPresets={[1, 2, 3, 4, 6, 8]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">{t('startNotes.smallestGap')}</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">{t('startNotes.smallestGap')}</label>
+                    <InchSelector
                       value={ceilingSmallest}
-                      onChange={(e) => setCeilingSmallest(e.target.value)}
-                      className="input-field"
-                      placeholder='"'
+                      onChange={setCeilingSmallest}
+                      label={`${t('startNotes.ceiling')} - ${t('startNotes.smallestGap')}`}
+                      maxInches={12}
+                      quickPresets={[0, 1, 2, 3]}
                     />
                   </div>
                 </div>
@@ -452,23 +456,23 @@ export function StartNotesPage() {
                 <h4 className="text-sm font-medium text-gray-700 mb-2">{t('startNotes.toeKick')}</h4>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <label className="text-xs text-gray-500">{t('startNotes.largestGap')}</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">{t('startNotes.largestGap')}</label>
+                    <InchSelector
                       value={toeKickLargest}
-                      onChange={(e) => setToeKickLargest(e.target.value)}
-                      className="input-field"
-                      placeholder='"'
+                      onChange={setToeKickLargest}
+                      label={`${t('startNotes.toeKick')} - ${t('startNotes.largestGap')}`}
+                      maxInches={8}
+                      quickPresets={[3, 4, 5, 6]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">{t('startNotes.smallestGap')}</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">{t('startNotes.smallestGap')}</label>
+                    <InchSelector
                       value={toeKickSmallest}
-                      onChange={(e) => setToeKickSmallest(e.target.value)}
-                      className="input-field"
-                      placeholder='"'
+                      onChange={setToeKickSmallest}
+                      label={`${t('startNotes.toeKick')} - ${t('startNotes.smallestGap')}`}
+                      maxInches={8}
+                      quickPresets={[2, 3, 4]}
                     />
                   </div>
                 </div>
@@ -527,12 +531,13 @@ export function StartNotesPage() {
               {/* Countertop Thickness */}
               <div className="mb-4">
                 <label className="form-label">{t('startNotes.countertopThickness')}</label>
-                <input
-                  type="text"
+                <InchSelector
                   value={countertopThickness}
-                  onChange={(e) => setCountertopThickness(e.target.value)}
-                  className="input-field"
-                  placeholder='e.g., 1.5"'
+                  onChange={setCountertopThickness}
+                  label={t('startNotes.countertopThickness')}
+                  minInches={0}
+                  maxInches={3}
+                  showQuickPresets={false}
                 />
               </div>
 
@@ -541,93 +546,93 @@ export function StartNotesPage() {
                 <h4 className="text-sm font-medium text-gray-700 mb-3">📐 Front View - Heights</h4>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <label className="text-xs text-gray-500">Floor to Ceiling</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Floor to Ceiling</label>
+                    <InchSelector
                       value={cabinetPlacement.floorToCeiling}
-                      onChange={(e) => updateCabinetPlacement('floorToCeiling', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('floorToCeiling', val)}
+                      label="Floor to Ceiling"
+                      maxInches={120}
+                      quickPresets={[84, 90, 96, 102, 108, 120]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Ceiling to Top of Cabinet</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Ceiling to Top of Cabinet</label>
+                    <InchSelector
                       value={cabinetPlacement.ceilingToTopOfCabinet}
-                      onChange={(e) => updateCabinetPlacement('ceilingToTopOfCabinet', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('ceilingToTopOfCabinet', val)}
+                      label="Ceiling to Top of Cabinet"
+                      maxInches={24}
+                      quickPresets={[0, 1, 2, 3, 6, 12]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Floor to Top of Wall Cab</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Floor to Top of Wall Cab</label>
+                    <InchSelector
                       value={cabinetPlacement.floorToTopOfWallCabinet}
-                      onChange={(e) => updateCabinetPlacement('floorToTopOfWallCabinet', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('floorToTopOfWallCabinet', val)}
+                      label="Floor to Top of Wall Cabinet"
+                      maxInches={108}
+                      quickPresets={[80, 84, 90, 96]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Wall Cabinet Height</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Wall Cabinet Height</label>
+                    <InchSelector
                       value={cabinetPlacement.wallCabinetHeight}
-                      onChange={(e) => updateCabinetPlacement('wallCabinetHeight', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('wallCabinetHeight', val)}
+                      label="Wall Cabinet Height"
+                      maxInches={48}
+                      quickPresets={[15, 18, 24, 30, 36, 40]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Floor to Bottom of Wall Cab</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Floor to Bottom of Wall Cab</label>
+                    <InchSelector
                       value={cabinetPlacement.floorToBottomOfWallCabinet}
-                      onChange={(e) => updateCabinetPlacement('floorToBottomOfWallCabinet', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('floorToBottomOfWallCabinet', val)}
+                      label="Floor to Bottom of Wall Cabinet"
+                      maxInches={72}
+                      quickPresets={[48, 54, 56, 60]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Gap Between Cabinets</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Gap Between Cabinets</label>
+                    <InchSelector
                       value={cabinetPlacement.gapBetweenCabinets}
-                      onChange={(e) => updateCabinetPlacement('gapBetweenCabinets', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('gapBetweenCabinets', val)}
+                      label="Gap Between Cabinets"
+                      maxInches={36}
+                      quickPresets={[15, 18, 20, 24]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Floor to Countertop</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Floor to Countertop</label>
+                    <InchSelector
                       value={cabinetPlacement.floorToCountertop}
-                      onChange={(e) => updateCabinetPlacement('floorToCountertop', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('floorToCountertop', val)}
+                      label="Floor to Countertop"
+                      maxInches={48}
+                      quickPresets={[34, 36, 38, 42]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Base Cabinet Height</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Base Cabinet Height</label>
+                    <InchSelector
                       value={cabinetPlacement.baseCabinetHeight}
-                      onChange={(e) => updateCabinetPlacement('baseCabinetHeight', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('baseCabinetHeight', val)}
+                      label="Base Cabinet Height"
+                      maxInches={42}
+                      quickPresets={[30, 34, 36]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Toe Kick Height</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Toe Kick Height</label>
+                    <InchSelector
                       value={cabinetPlacement.toeKickHeight}
-                      onChange={(e) => updateCabinetPlacement('toeKickHeight', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('toeKickHeight', val)}
+                      label="Toe Kick Height"
+                      maxInches={8}
+                      quickPresets={[3, 4, 5, 6]}
                     />
                   </div>
                 </div>
@@ -638,43 +643,43 @@ export function StartNotesPage() {
                 <h4 className="text-sm font-medium text-gray-700 mb-3">📐 Side View - Depths</h4>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <label className="text-xs text-gray-500">Wall to Front of Wall Cab</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Wall to Front of Wall Cab</label>
+                    <InchSelector
                       value={cabinetPlacement.wallToFrontOfWallCabinet}
-                      onChange={(e) => updateCabinetPlacement('wallToFrontOfWallCabinet', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('wallToFrontOfWallCabinet', val)}
+                      label="Wall to Front of Wall Cabinet"
+                      maxInches={24}
+                      quickPresets={[12, 13, 15, 18]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Wall to Front of Countertop</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Wall to Front of Countertop</label>
+                    <InchSelector
                       value={cabinetPlacement.wallToFrontOfCountertop}
-                      onChange={(e) => updateCabinetPlacement('wallToFrontOfCountertop', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('wallToFrontOfCountertop', val)}
+                      label="Wall to Front of Countertop"
+                      maxInches={36}
+                      quickPresets={[24, 25, 26, 27]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Wall to Front of Base Cab</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Wall to Front of Base Cab</label>
+                    <InchSelector
                       value={cabinetPlacement.wallToFrontOfBaseCabinet}
-                      onChange={(e) => updateCabinetPlacement('wallToFrontOfBaseCabinet', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('wallToFrontOfBaseCabinet', val)}
+                      label="Wall to Front of Base Cabinet"
+                      maxInches={30}
+                      quickPresets={[24, 25, 27]}
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-gray-500">Countertop Overhang</label>
-                    <input
-                      type="text"
+                    <label className="text-xs text-gray-500 block mb-1">Countertop Overhang</label>
+                    <InchSelector
                       value={cabinetPlacement.countertopOverhang}
-                      onChange={(e) => updateCabinetPlacement('countertopOverhang', e.target.value)}
-                      className="input-field text-sm"
-                      placeholder='"'
+                      onChange={(val) => updateCabinetPlacement('countertopOverhang', val)}
+                      label="Countertop Overhang"
+                      maxInches={6}
+                      quickPresets={[1, 2]}
                     />
                   </div>
                 </div>

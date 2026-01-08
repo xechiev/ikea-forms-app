@@ -112,7 +112,7 @@ export function HomePage() {
                 <button
                   key={job.id}
                   onClick={() => handleJobClick(job.id)}
-                  className="w-full bg-white rounded-xl p-4 shadow-sm text-left hover:shadow-md transition-shadow"
+                  className="w-full bg-white rounded-xl p-4 shadow-sm text-left hover:shadow-md transition-shadow cursor-pointer"
                 >
                   <div className="flex justify-between items-start">
                     <div>

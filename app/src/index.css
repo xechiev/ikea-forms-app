@@ -166,3 +166,75 @@ body {
 .border-ikea-blue {
   border-color: var(--color-ikea-blue);
 }
+
+/* Modal slide-up animation */
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.2s ease-out;
+}
+
+/* InchSelector wheel styles */
+.inch-selector-wheel {
+  height: 192px; /* h-48 */
+  overflow-y: auto;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* Hide scrollbar but keep functionality */
+.inch-selector-wheel::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.inch-selector-wheel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.inch-selector-item {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4b5563;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.inch-selector-item:active {
+  background-color: #e5e7eb;
+}
+
+.inch-selector-item.selected {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* Hide scrollbar but allow scrolling - generic */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
